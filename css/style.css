@@ -57,12 +57,21 @@ ul {
 
 .header li {
     margin: 20;
+
 }
 
 .header a {
     color: rgb(7, 7, 7);
     text-decoration: none;
 
+
+}
+
+.header a:hover {
+    color: rgb(97, 100, 102);
+    transform: matrix3d();
+    font-size: larger;
+    transition: .3s;
 }
 
 
